@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600&display=swap');
 /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500&display=swap');
+/* font-family: 'Barlow Semi Condensed', sans-serif; */
 
 /* 
 Rouge : #A61120
@@ -20,7 +22,7 @@ header{
 nav div.profil img{
     width: 80px;
     clip-path: ellipse(50% 50%);
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 /* nav bar */
@@ -41,8 +43,8 @@ nav a{
 }
 
 nav a:hover{
-    /* color: rgba(255, 255, 255, 0.7); */
-    color: #A61120;
+    color: rgba(255, 255, 255, 0.7);
+    /* color: #A61120; */
 }
 
 /* contenu texte du header */
@@ -100,7 +102,7 @@ section.name{
 /* shape wave  */
 .custom-shape-divider-top-1655322339 {
     position: absolute;
-    top: 348px;
+    top: 355px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -122,3 +124,35 @@ section.name{
 main{
     margin-top: 200px;
 }
+
+div.container h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* skills section  */
+section.competences{
+    margin-top: 30px;
+}
+
+section.competences i{
+    font-size: 40px;
+}
+
+div.base{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.react-node{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.carte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
