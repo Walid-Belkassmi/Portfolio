@@ -9,13 +9,17 @@ Blanc : #FFFFFF
 Gris : #D7D7C1  
 */
 
-
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background: #1F1F1F;
+}
 /* header */
 header{
     /* background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(60, 22%, 80%, 1) 100%); */
     /* background: linear-gradient(90deg, hsla(60, 22%, 80%, 1) 0%, hsla(0, 0%, 100%, 1) 100%); */
-    background-color: #1f1f1f;
-    height: auto;
+    /* background-color: #1f1f1f; */
+    height: 80%;
 }
 
 /* photo de profil */
@@ -74,7 +78,7 @@ header h3{
 }
 
 section.name{
-    /* padding-top: 50px; */
+    position: absolute;
     margin-left: 50px;
     margin-top: 25px;
 }
