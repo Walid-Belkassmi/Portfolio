@@ -26,6 +26,10 @@ nav div.profil img{
 }
 
 /* nav bar */
+nav i.burger{
+    display: none;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -112,7 +116,7 @@ section.name{
 .custom-shape-divider-top-1655322339 svg {
     position: relative;
     display: block;
-    width: calc(152% + 1.3px);
+    width: calc(150% + 1.3px);
     height: 205px;
 }
 
@@ -125,15 +129,26 @@ main{
     margin-top: 200px;
 }
 
-div.container h2{
+main p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+main h2{
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 30px;
     font-weight: 500;
+    margin-bottom: 25px;
 }
 
 /* skills section  */
 section.competences{
     margin-top: 30px;
+}
+
+section.competences h2{
+    margin-bottom: 40px;
 }
 
 section.competences i{
@@ -156,3 +171,70 @@ div.carte{
     align-items: center;
 }
 
+section.competences i.fa-html5{
+    color: orangered;
+}
+
+section.competences i.fa-css3{
+    color: blue;
+}
+
+section.competences i.fa-js{
+    color: yellow;
+}
+
+section.competences i.fa-react{
+    color: lightblue;
+}
+
+section.competences i.fa-node{
+    color: green;
+}
+
+/* responsive  */
+/* Phone version */
+@media (max-width:768px) {
+    nav div.profil img{
+        display: none;
+    }
+
+    /* nav  */
+    div.nav-bar{
+        display: none;
+    }
+    nav i.burger{
+        display: block;
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        right: 15px;
+        top: 5px;
+    }
+
+/* header */
+    header h2{
+        position: relative;
+        font-size: 40px;
+    }
+    header h1{
+        font-size: 60px;
+        text-align: left;
+    }
+
+    section.name{
+        margin-left: 20px;
+    }
+    
+
+/* wave */
+    .custom-shape-divider-top-1655322339 {
+        top: 200px;
+    }
+}
+
+/* tablet version */
+@media (max-width: 992px) {
+    .custom-shape-divider-top-1655322339{
+        top: 185px;
+    }
+}
