@@ -148,6 +148,26 @@ div.tech{
     font-size: 15px;
 }
 
+section.competences i.fa-html5{
+    color: orangered;
+}
+
+section.competences i.fa-css3{
+    color: blue;
+}
+
+section.competences i.fa-js{
+    color: yellow;
+}
+
+section.competences i.fa-react{
+    color: aqua;
+}
+
+section.competences i.fa-node{
+    color: green;
+}
+
 /* project section */
 section.projets{
     padding-top: 100px;
