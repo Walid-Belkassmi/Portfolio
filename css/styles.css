@@ -117,7 +117,7 @@ main p{
 
 main h2{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 500;
     margin-bottom: 25px;
 }
@@ -127,10 +127,81 @@ section.competences{
     padding-top: 100px;
 }
 
+section.competences div.container h2{
+    margin-bottom: 35px;
+}
+
+section.competences i{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+div.technologies{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
 /* project section */
 section.projets{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+section.projets div.card{
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+section.projets .btn{
+    background-color: #A61120;
+    border-color: #A61120;
+}
+
+
+/* footer */
+footer{
+    background-color: #1F1F1F;
+    color: #fff;
+    padding-top: 30px;
+}
+
+footer h2{
+    padding-bottom: 30px;
+}
+
+address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 50px;
+}
+
+address div.liens{
+    padding-bottom: 20px;
+}
+
+address div.liens:last-child{
+    padding-bottom: 50px;
+}
+
+address div.liens a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+}
+
+address div.liens a:visited{
+    color: #fff;
+}
+
+
 
 
 /* responsive  */
@@ -167,17 +238,26 @@ section.projets{
         margin-left: 20px;
     }
 
+/* competences */
+    div.technologies{
+        flex-direction: column;
+        gap: 30px;
+    }
+
     /* Projets */
     section.projets div.container div.row{
         flex-direction: column;
+        align-items: flex-start;
         gap: 20px;
     }
+
+
 }
 
 /* tablet version */
 @media (max-width: 992px) {
     section.projets div.container div.row{
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
         gap: 25px;
     }
