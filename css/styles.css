@@ -122,6 +122,23 @@ main h2{
     margin-bottom: 25px;
 }
 
+/* About me */
+main section.about-me h2{
+    position: relative;
+}
+
+/* main section.about-me h2::after{
+    content: "";
+    border-style: solid;
+    width: 35px;
+    height: 5px;
+    position: absolute;
+    color: #A61120;
+    top: 60px;
+    left: 0px;
+} */
+
+
 /* skills section  */
 section.competences{
     padding-top: 100px;
@@ -129,10 +146,23 @@ section.competences{
 
 section.competences div.container h2{
     margin-bottom: 35px;
+    position: relative;
 }
+
+/* section.competences div.container h2::after{
+    content: "";
+    border-style: solid;
+    width: 35px;
+    height: 5px;
+    position: absolute;
+    color: #A61120;
+    top: 60px;
+    left: 0px;
+} */
 
 section.competences i{
     font-size: 40px;
+    margin-top: 50px;
     padding-bottom: 10px;
 }
 
@@ -173,6 +203,22 @@ section.projets{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+section.projets h2{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+/* section.projets h2::after{
+    content: "";
+    border-style: solid;
+    width: 35px;
+    height: 5px;
+    position: absolute;
+    color: #A61120;
+    top: 60px;
+    left: 0px;
+} */
 
 section.projets div.card{
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
